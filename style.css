@@ -154,6 +154,11 @@ nav ul li:hover{
     font-weight: 400;
     font-size: 25px;
 }
+.sliderImg3{
+    width: 12%;
+}
+
+
 @media (max-width: 1250px) {
     header{
         height: 122px;
