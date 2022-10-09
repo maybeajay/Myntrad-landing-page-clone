@@ -1,0 +1,200 @@
+@import url('http://fonts.cdnfonts.com/css/whitney-2');     
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); 
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 66px;
+   
+ }
+.left img{
+    width: 93px;
+    height: 43px;
+}
+.contianer{
+    padding: 0 10vw;
+    background-color: white;
+}
+nav ul li{
+    padding: 0 12px;
+    list-style: none;
+    color: black;
+}
+nav{
+    padding-top: 14px;
+}
+.font{
+    font-family: 'Whitney', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+nav ul li:hover{
+    cursor: pointer;
+}
+.searchbar{
+    background-color: white;
+     width: 24vw;
+     padding: 4px 17px; 
+     border: 0.5px solid gray;
+     background-color: rgb(255, 253, 253);
+     border-radius: 8px;
+}
+.spacebetween{
+    justify-content: space-between;
+}
+.mx2{
+    margin-left: 26px;
+    margin-right: 20px; 
+}
+.section1{
+    background-color: rgb(255 255 255);
+    /* height: 122vh; */
+    display: inline-block;
+    padding: 0 50px;
+}
+.homeImg{
+    width: 90vw;
+    margin: 12px 0;
+}
+.pfont{
+    font-family: 'Whitney', sans-serif;
+}
+.img1{
+    width: 15%;
+}
+.sliderImg{
+    width: 16%;
+    border: 4px solid white;
+}
+.slider-screen{
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    flex-wrap: wrap;
+}
+.slider2img{
+    height: 12%;
+    padding: 0 12px;
+    border: 4px solid white;
+}
+.phoneScreen{
+    display: flex;
+    flex-direction: row;
+    row-gap: 12px;
+}
+.onHover::after{
+    content: "";
+    background-color: #ff3c78;
+    position: absolute;
+    height: 3px;
+    width: 0;
+    left: 6.5%;
+    bottom: 0;
+    transition: 0.3s;
+}
+.onHover:hover::after{
+    width:3%;
+}
+.onHover1:hover::after{
+    left: 11%;
+    width:4%;
+}
+.onHover2:hover::after{
+    left: 16%;
+    width:3%;
+}
+.onHover3:hover::after{
+    left: 20%;
+    width:7%;
+}
+.onHover4:hover::after{
+    left: 29.5%;
+    width:4%;
+}
+.onHover5:hover::after{
+    left: 35%;
+    width:4%;
+}
+.button{
+    width: 5vw;
+    border: 0vh;
+    background-color: white;
+}
+.button:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.text__icon{
+    height: 2vh;
+}
+#whenClicked{
+    width: 30%;
+    height: 30vh;
+    background-color: #ff3c78;
+}
+.sliderImg2{
+    width: 16%;
+}
+
+.footer-items{
+    width: 100%;
+    display: flex;
+    height: 14vh;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+@media (max-width: 1250px) {
+    header{
+        height: 122px;
+    }
+    nav{
+        align-items: center;
+        flex-direction: column;
+    }
+    .right{
+        flex-direction: column;
+}
+   .phonescreen{
+    display: flex;
+    margin: 12px;
+   }
+   nav ul li{
+    font-size: 10px;
+    list-style: none;
+    padding: 0 4px;
+   }
+   .contianer{
+    padding: 2vw;
+   }
+   .homeImg {
+    width: 72vw;
+    margin: 9px 0px;
+   }
+   .slider-screen{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 13%;
+
+   }
+   .sliderImg{
+    width: 40%;
+   }
+   .phoneSlider{
+    display: flex;
+    column-gap: 20px;
+   }
+   .phonesliderimg{
+    width: 40%;
+   }
+}
